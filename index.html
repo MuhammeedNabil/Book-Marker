@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body class="p-3">
+    <p class="h3 text-muted p-5">Bookmarker</p>
+    <div class="container-fluid px-5">
+        <hr>
+    </div>
+ 
+    <div class="container text-center bg-light p-5">
+        <h1 class="h3 my-3">Bookmark your favorite sites</h1>
+        <label for="SiteName">Site Name</label>
+        <input type="text" id="SiteName" placeholder="Bookmark Name" class="form-control my-3">
+        <label for="SiteURL">Site URL</label>
+        <input type="text" id="SiteURL" placeholder="Website URL" class="form-control my-3">
+        <button type="submit" class="btn btn-primary my-3 shadow-lg" id="submitBtn">submit</button>
+    </div>
+
+    <div class="container bg-light p-5 mt-5">
+            <table class="table">
+                <thead>
+                    <th>Site Name</th>
+                    <th>Visit site</th>
+                    <th>Delete site</th>
+                </thead>
+                <tbody id="tableRow">
+                  
+                </tbody>
+            </table>
+    </div>
+    <div class="container-fluid px-5">
+        <hr>
+    </div>
+   <script src="main.js"></script>
+</body>
+</html>
